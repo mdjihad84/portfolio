@@ -1,0 +1,63 @@
+        /* fonts section part*/
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+            /* body section part*/
+body{
+    margin: 40px 30px;
+    font-family: 'roboto';
+}
+        /* Bio data or contract part */
+.contract{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #707070;
+}
+.description{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.address{
+    color: #707070;
+}
+.parent-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+              /* about section pate */
+.about-section{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.about-me{
+    font-size: 40px;
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: bold;
+            <!-- what i do section -->
+}
+.do-style{
+    font-size: 40px;
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.charset{
+    display: flex;
+    justify-content: space-around;
+}
+.main-style{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #ddd;
+}
+.picture{
+    border-radius: 15px;
+}
